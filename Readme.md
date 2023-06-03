@@ -1,6 +1,6 @@
 ﻿# Project Title
 
-MiniApi Project Template using dotnet new
+MiniApi Project Template
 
 ## Description
 
@@ -19,6 +19,8 @@ Minimal API is a lightweight approach introduced in ASP.NET Core 6.0 that simpli
 - **Rapid Development**: With the project template, you can quickly get started with developing your web application, thanks to the simplified setup and reduced ceremony.
 
 - **Flexible and Extensible**: Despite its minimalistic nature, the Minimal API approach is highly flexible and extensible. You can easily add middleware, authentication, authorization, and other components to customize your application as needed.
+
+- **Fast Endpoints**: The generated project template includes the Fast Endpoints library, which provides a high-performance routing and request handling framework for Minimal APIs. For more information, visit the [Fast Endpoints website](https://fast-endpoints.com/docs/get-started).
 
 ## Getting Started
 
@@ -68,6 +70,7 @@ This project is licensed under the [MIT License](LICENSE.txt). Please see the [L
 
 - [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/core)
 - [Minimal APIs in ASP.NET Core 7.0](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0)
+- [Fast Endpoints Website](https://fast-endpoints.com/docs/get-started#create-project-install-package)
 
 ## Acknowledgments
 
