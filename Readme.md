@@ -30,12 +30,15 @@ To install the MiniApi project template, follow these steps:
 
 2. Open a terminal or command prompt and navigate to the directory where you have downloaded or cloned this project.
 
-3. Run the following command to install the template:
+3. To install the template download source or the latest release from the [Releases](https://github.com/bohdan-prokopenko/dotnet-templates/releases) page.
+Run the following command if you want to install from sources:
 ```shell
-dotnet new -i ./mini-api
+dotnet new -i ./mini-api-template
 ```
-
-
+or if you want to install from the [Releases](https://github.com/bohdan-prokopenko/dotnet-templates/releases):
+```shell
+dotnet new -i MiniApi.Template.2.0.0.nupkg
+```
 
 To create a new MiniApi project, follow these steps:
 
