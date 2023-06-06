@@ -1,4 +1,4 @@
-namespace MiniApi.Responses;
+namespace MiniApi.Application.Responses;
 
 public class HelloResponse
 {

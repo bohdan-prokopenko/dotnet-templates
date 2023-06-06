@@ -10,9 +10,42 @@
     "language": "C#",
     "type": "project"
   },
+  "symbols":{
+    "testFramework": {
+      "type": "parameter",
+      "description": "The target framework for the test project.",
+      "datatype": "choice",
+      "allowMultipleValues": false,
+      "enableQuotelessLiterals": true,
+      "choices": [
+        {
+          "choice": "nunit",
+          "description": "Nunit tests"
+        },
+        {
+          "choice": "xunit",
+          "description": "Xunit tests"
+        },
+        {
+          "choice": "mstest",
+          "description": "MS tests"
+        }
+      ],
+      "defaultValue": "nunit"
+    }
+  },
   "primaryOutputs": [
     {
-      "path": "MiniApi/MiniApi.csproj"
+      "path": "MiniApi/Application/MiniApi.Application.csproj"
+    },
+    {
+      "path": "MiniApi/Core/MiniApi.Core.csproj"
+    },
+    {
+      "path": "MiniApi/Tests/Application/MiniApi.Application.Tests.csproj"
+    },
+    {
+      "path": "MiniApi/Tests/Core/MiniApi.Core.Tests.csproj"
     }
   ],
   "postActions": [
@@ -33,7 +66,7 @@
         "text": "Manually add the reference to FastEndpoints to your project file"
       }],
       "args": {
-        "targetFiles": ["MiniApi.csproj"],
+        "targetFiles": ["MiniApi.Application.csproj"],
         "referenceType": "package",
         "reference": "FastEndpoints",
         "version": "5.11.0"
@@ -47,7 +80,7 @@
         "text": "Manually add the reference to FastEndpoints.Security to your project file"
       }],
       "args": {
-        "targetFiles": ["MiniApi.csproj"],
+        "targetFiles": ["MiniApi.Application.csproj"],
         "referenceType": "package",
         "reference": "FastEndpoints.Security",
         "version": "5.11.0"

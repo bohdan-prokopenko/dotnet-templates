@@ -1,4 +1,4 @@
-using MiniApi.Responses;
+using MiniApi.Application.Responses;
 using Microsoft.AspNetCore.Authorization;
 
 namespace MiniApi.Endpoints;
