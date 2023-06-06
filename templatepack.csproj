@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>2.0</PackageVersion>
     <PackageId>MiniApi.Template</PackageId>
     <Title>Minimal Api Template</Title>
     <Authors>Bohdan Prokopenko</Authors>
